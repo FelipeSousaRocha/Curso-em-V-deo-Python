@@ -1,0 +1,145 @@
+uso de ''' quase =  #
+
+end='' #juntar linha
+
+sep='' #colocar algo nos espaços
+
+[:3] #pegar do caracter 0 até 2
+
+variavel = 0 #antes de while
+
+if c==1: #pegar maior e menor número
+  maior = 0
+  menor = 0
+  if m > maior:
+    maior = m
+  if m < menor:
+    menor = m
+
+from datetime import date #pegar ano atual
+anoatual = date.today().year
+
+frase = str(input('Veja se a frase é um Palíndromo: ')).strip().upper() 
+palavras = frase.split()   #tirar espaços
+junto = ''.join(palavras) #juntar
+inverso=junto[::-1] #pegar a palavra ao contrário
+
+cont += +1 #contar a cada rotação no while
+
+sexo = str(input('Digite seu sexo [M/f]: ')).upper().strip()[0] #pegar só a primeira letra
+while sexo != 'M' or sexo != 'F':
+    sexo = str(input('Digite seu sexo: '))
+print('Fim') #Só pega a primeira letra, transforma em maiscula
+
+from time import sleep
+sleep(1) #pausa de 1s
+
+print('{:=^40}') #repeti
+
+bin(n) #converter números
+oct(n)
+hex(n)
+
+identação:
+while True:
+  if :
+  elif:
+  else:
+  break
+
+from  random import randint  #gerar número aleatório
+computador = randint(0,10)
+
+from math import factorial #transformar em fatorial
+
+multiplicacao > r = 1
+
+n = int(input()) #numero de variaveis é criada pela primeira entrada
+a=[]
+for c in range(1,n+1):
+    a.append(int(input()))
+for c in a:
+    print(c)
+
+n=1
+lista = []
+
+while True:
+    n = int(input()) #mostra a sequencia de 1 ate n na mesma linha
+    if n==0:
+        break
+    else:
+        for b in range(1,n):
+            print(b,end=' ')
+        print(n,end='\n')
+
+n = int(input()) #adicionar vários valores na mesma linha
+x = []
+a = list(map(int,input().split()))
+for i in range(n):
+    x.insert(i, a[i])
+
+fibonacci
+n = int(input()) #somo o 2ªvalor + 3ª...
+a, b = 0, 1
+for i in range(n - 1):
+    print(a, end=' ')
+    a, b = b, a + b
+print(a)
+
+n = int(input()) #gero o número de entradas nessa linha
+for c in range (0,n):
+    num = int(input()) #leio num n vezes
+
+n = 1  #mostro sequencia crescente até n
+lista = [] 
+
+while True:
+    n = int(input()) #esse n
+    if n == 0:
+        break
+    else:
+        for b in range(1,n):
+            print(b,end=' ') #imprimo até n-1
+        print(n,end='\n') #imprimo de b até n-1 e somo com n
+
+resultado = set(carneiros) #le a kista sem repetições
+    print(len(resultado)) #conta quantos elementos
+
+while True:  #finalisa ao pressionar ctrl d
+    try:
+    except EOFError:
+        break
+
+x = list(map(int, input().split()))
+print(x.index(min)+1) #quantas vezes o min ocorre sem repetir as possibilidades ou seja min entre 1,1,2 vai ser um, que no print só será considerado 1x
+
+    n = int(input ())
+    while len(n) > 1: #enquanto a quatidade de algarismo é maior que 1, calcula os algarismos na sequencia ex: 111 -> 1+1+1 = 3
+        n0 = 0
+        for i in n:
+            n0 += int(i) #soma cada algarismo com o próximo
+        n = str(n0) #transforma n em str 
+        print(n)
+
+l1 = [1,2,3]
+lw = l1.copy()
+list2 = []
+for item in list1:
+    list2.append(item)
+list2 = list1[:]       #criar uma copia de uma lista
+list2 = [] + list1
+
+num = list(map(int, input().split())) #Obter a posição e o número
+for indice, valor in enumerate(num):
+   print(f'{indice} {valor}')
+
+palavras = ('jegue','urubu','camelo','vaca','tartaruga','gato','peixe','cachorro')
+for vezes in palavras:
+    print(vezes)         #imprimi cada palavra
+
+print(f'{"LISTAGEM DE PREÇOS":^40}') #centralizar em 40 caracteres
+
+print('-'*40) #repetir 40x
+
+print(f'R$ {nomeprecos[pos]:>3.2f}') #alinhei a direita em 3 caracteres e em float de 2
